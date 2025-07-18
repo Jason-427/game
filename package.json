@@ -1,0 +1,12 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "mkdir -p temp-deploy && cp index.html temp-deploy/ && gh-pages -d temp-deploy --nojekyll -r https://github.com/Jason-427/game.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
